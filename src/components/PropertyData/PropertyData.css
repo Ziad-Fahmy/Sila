@@ -1,0 +1,22 @@
+.PropertyData__container {
+  background-color: #f4f9ff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vh 0;
+  margin-bottom: 5vh;
+  padding-left: 20%;
+}
+
+.PropertyData__container-construction {
+  /* align-items: center; */
+  margin: 0 10vh;
+}
+
+.PropertyData__container-construction-svg {
+  padding-top: 2vh;
+  width: 9vh;
+}
+
+.PropertyData__container-construction-num {
+  margin: 2vh 0;
+}

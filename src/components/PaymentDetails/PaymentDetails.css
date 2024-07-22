@@ -1,0 +1,92 @@
+.PaymentDetails__ourPaymentDetails {
+  padding-top: 2.5vh;
+  font-size: 3vh;
+}
+
+.PaymentDetails__container {
+  display: flex;
+  padding: 10rem;
+  justify-content: center;
+}
+
+.PaymentDetails__mainFocus {
+  text-align: center;
+  font-weight: 620;
+}
+
+.PaymentDetails__card {
+  height: 80vh;
+  margin: 0 2.5rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 25%;
+  height: 80%;
+  transition: 0.7s;
+}
+
+.Servicces__img {
+  width: 10vh;
+  margin: auto;
+  padding-bottom: 2vh;
+}
+
+.PaymentDetails__paymentButon {
+  display: flex;
+}
+
+.PaymentDetails__paymentButon svg {
+  width: 3vh;
+  padding-bottom: 1.5vh;
+  align-items: center;
+}
+
+.paymentDetails__Links {
+  text-decoration: none;
+  color: #0a0a0a;
+  transition: 0.7s;
+}
+.paymentDetails__Links:hover {
+  color: #0061e0;
+  cursor: pointer;
+}
+
+.PaymentDetails__card:hover {
+  width: 26%;
+  height: 86%;
+  color: #0061e0;
+  cursor: pointer;
+  background-color: #f4f9ff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1400px) {
+  .PaymentDetails__container {
+    /* display: flex; */
+    display: grid;
+  }
+  .PaymentDetails__card {
+    margin-bottom: 5vh;
+    width: 100%;
+    display: grid;
+    /* Adjust styles for smaller screens here */
+    /* max-width: 50%; */
+  }
+  .PaymentDetails__card:hover {
+    width: 102%;
+  }
+}
+
+@media (max-width: 720px) {
+  .Servicces__img {
+    margin: auto;
+    padding-bottom: 2vh;
+    width: 8vh;
+  }
+  .PaymentDetails__card {
+    /* Adjust styles for even smaller screens here */
+    width: 100%;
+  }
+}

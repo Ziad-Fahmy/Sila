@@ -1,0 +1,97 @@
+.carusel__img img {
+  height: 100vh;
+}
+
+.OneBedroom__downloadFile{
+  padding: 3vh;
+  transition: 0.7s;
+}
+
+.OneBedroom__downloadFile button{
+  background-color: #0061e0;
+  color: #fafafa;
+  border: none;
+
+
+  font-size: 25px;
+  transition: 0.7;
+  max-width: 300px;
+  max-height: 80px;
+}
+.OneBedroom__downloadFile button:hover{
+  background-color: #0d263b;
+}
+.OneBedroom__downloadFile a{
+  text-decoration: none;
+
+}
+
+.PaymentUnitInfo__h1 {
+  margin: 3vh;
+}
+
+.PaymentUnitInfo__oneBedroom-info {
+  padding-bottom: 10vh;
+}
+
+.PaymentUnitInfo__oneBedroom-info h3 {
+  margin: 3vh;
+}
+
+.info-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #17223b; /* Dark Blue color */
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.info-item {
+  margin: 5vh;
+  font-size: 18px;
+  color: #17223b; /* Dark Blue color */
+}
+
+.info-item span {
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 1200px) {
+  .carusel__img img {
+    height: 80vh;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .carusel__img img {
+    height: 65vh;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .carusel__img img {
+    height: 47vh;
+  }
+  
+}
+
+
+@media (max-width: 450px) {
+  .carusel__img img {
+    height: 30vh;
+  }
+  .PaymentUnitInfo__oneBedroom-info {
+    padding-bottom: 0vh;
+}
+  
+}
+

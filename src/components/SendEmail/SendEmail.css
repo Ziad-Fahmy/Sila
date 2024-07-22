@@ -1,0 +1,61 @@
+
+.email__footer {
+    background-color: #0061e0;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .email__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .email__text{
+    padding: 2vh 10vh;
+    
+}
+
+.emil__label{
+    padding: 2vh 10vh;
+
+}
+
+
+
+
+
+
+  /*  */
+  .email__col {
+    text-align: center;
+  }
+  
+  .email__subscribe {
+    margin: auto;
+    border-radius: 5px;
+  }
+  .email__subscribe form {
+    display: flex;
+    text-align: start;
+  }
+
+  .email__subscribe input {
+    text-align: start;
+    width: 50vh;
+    height: 6vh;
+    /* padding: 2vh 20vh; */
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  
+  .email__subscribe button {
+    padding: 1.6vh 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }

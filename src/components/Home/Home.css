@@ -1,0 +1,85 @@
+body {
+
+  box-sizing: border-box;
+}
+
+.luxury-residence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.home__container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home__content {
+  max-width: 50%;
+  padding: 20px;
+}
+
+.home__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home__content p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.home__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  /* .home__overlay::before {
+  content: "";
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+} */
+
+  .home__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home__content {
+    max-width: 100%;
+    padding: 20px 0;
+  }
+
+  .home__image {
+    margin-top: 20px;
+  }
+}

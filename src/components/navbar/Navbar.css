@@ -1,0 +1,15 @@
+.navbar-color{
+    background-color: #f4f9ff;
+}
+
+.navbar-brand img{
+    max-width: 9.5vh;
+}
+
+.footer__logo img{
+    max-width: 10vh;
+    padding-bottom: 3vh;
+}
+li a{
+    text-decoration: none;
+}
